@@ -78,6 +78,7 @@ switch (pageType) {
 					price: mainProductPrice,
 					name: visitorName,
 					email: visitorEmail,
+					bump: 'true',
 				});
 				flEvent('purchase', {
 					product: bumpProductName,
@@ -90,6 +91,7 @@ switch (pageType) {
 					price: mainProductPrice,
 					name: visitorName,
 					email: visitorEmail,
+					bump: 'false',
 				});
 			}
 		});
